@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"gh --version 2>&1 && echo \\\"---\\\" && cd \\\"C:\\\\Users\\\\75672\\\\Downloads\\\\project_brainstorm\\\\ai-tools-site\\\" && git status 2>&1\",\"description\":\"Check gh CLI and git status\"}",
-  "error": "Exit code 127\n/usr/bin/bash: line 1: gh: command not found",
-  "timestamp": "2026-05-23T00:18:52.267Z",
-  "retry_count": 1
-}
