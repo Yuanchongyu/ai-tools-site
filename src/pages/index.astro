@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import '../styles/global.css';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIToolsGuide — Honest Reviews & Money-Making Guides</title>
+  <meta name="description" content="In-depth reviews of the best AI tools, plus practical guides on how to make money with AI in 2025. No fluff, just what works." />
+  <link rel="canonical" href={Astro.site} />
+  <!-- AdSense placeholder -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="/" class="brand">AIToolsGuide</a>
+      <div class="nav-links">
+        <a href="/#posts">Articles</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="hero">
+      <h1>The best AI tools,<br/>tested so you don't have to.</h1>
+      <p>Honest comparisons and practical guides to help you work smarter and earn more with AI in 2025.</p>
+    </section>
+
+    <section id="posts">
+      <div class="post-grid">
+        {posts.map(post => (
+          <article class="post-card">
+            {post.data.tags[0] && <span class="tag">{post.data.tags[0]}</span>}
+            <h2><a href={`/posts/${post.slug}/`}>{post.data.title}</a></h2>
+            <p>{post.data.description}</p>
+            <div class="post-meta">
+              {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>© 2025 AIToolsGuide</span>
+      <span>Independent reviews, honest opinions.</span>
+    </div>
+  </footer>
+</body>
+</html>
