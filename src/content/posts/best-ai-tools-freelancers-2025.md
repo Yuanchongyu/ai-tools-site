@@ -19,7 +19,7 @@ Claude consistently outperforms other models on long documents, nuanced writing,
 - Summarizing long client documents in seconds
 - Drafting first versions of reports, articles, or emails
 
-> **Affiliate note:** [Try Claude Pro free for 30 days](https://claude.ai) — the Pro tier is worth it if you write more than 5,000 words a week for clients.
+> **Try it:** [Claude.ai](https://claude.ai) — the Pro tier is worth it if you write more than 5,000 words a week for clients.
 
 ---
 
@@ -41,6 +41,8 @@ Cursor is VS Code with Claude and GPT-4 baked in at every level. It doesn't just
 
 If you already live in Notion, the AI add-on is a no-brainer. It drafts meeting notes, creates action items from transcripts, writes status updates, and maintains your second brain — all without leaving the tool you already use.
 
+> **Try it:** [Get started with Notion AI](NOTION_AFFILIATE_LINK) — the AI add-on pays for itself after your first client project.
+
 ---
 
 ## 4. Otter.ai — Best for Client Meeting Transcription
@@ -49,6 +51,8 @@ If you already live in Notion, the AI add-on is a no-brainer. It drafts meeting 
 **Pricing:** Free tier (300 min/month); Pro at $17/month
 
 Record every client call, get a full transcript plus AI summary within minutes. The meeting notes it generates are good enough to send directly to clients as follow-ups. Saves 20–30 minutes per call.
+
+> **Try it:** [Start with Otter.ai free](OTTER_AFFILIATE_LINK) — 300 minutes/month free, no credit card required.
 
 ---
 
@@ -68,6 +72,8 @@ For freelancers who need visuals — social media graphics, concept art, mockup 
 
 Edit video by editing text. Remove filler words with one click. Clone your voice to fix audio mistakes. For freelance video editors, Descript cuts editing time by roughly half on talking-head content.
 
+> **Try it:** [Try Descript free](DESCRIPT_AFFILIATE_LINK) — free tier includes 1 hour of transcription per month.
+
 ---
 
 ## 7. Perplexity AI — Best for Research
@@ -76,6 +82,8 @@ Edit video by editing text. Remove filler words with one click. Clone your voice
 **Pricing:** Free tier; Pro at $20/month
 
 Perplexity is a search engine that answers with cited sources instead of links. For client research, industry reports, and competitive analysis, it's dramatically faster than traditional search. The Pro version adds access to Claude, GPT-4, and Sonar for deeper queries.
+
+> **Try it:** [Try Perplexity Pro](PERPLEXITY_AFFILIATE_LINK) — use code from the referral page for a discount on your first month.
 
 ---
 
